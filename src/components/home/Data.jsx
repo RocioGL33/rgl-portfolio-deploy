@@ -57,8 +57,8 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">I'm Full Stack Developer</h3>
       <p className="home__description">
-        Based in Buenos Aires, Argentina, passionate about code and learn new
-        things. Welcome to my portfolio!
+        Based in Buenos Aires, Argentina, passionate about code and learning new
+        things. Welcome to my portfolio! ❤
       </p>
 
       <a href="#contact" className="button button__flex">
