@@ -21,7 +21,7 @@ const About = () => {
             world where I wanted to develop professionally. Since then I found
             myself creating websites where I try to improve my techniques more
             and more. As a creative, determined and exploring person, I am
-            looking for a challenging position where I can demonstrate my skills
+            looking for a challenging position where I can demostrate my skills
             and knowledge, add value to the workplace, leave my mark and above
             all learn. I stand out for my good management of communication,
             critical thinking and assertiveness in solving problems.
