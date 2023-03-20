@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import AboutImg from "../../assets/About.png";
-import CV from "../../assets/cv.pdf";
+import CVRocioGarciaLofrano from "../../assets/CVRocioGarciaLofrano.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -21,13 +21,16 @@ const About = () => {
             world where I wanted to develop professionally. Since then I found
             myself creating websites where I try to improve my techniques more
             and more. As a creative, determined and exploring person, I am
-            looking for a challenging position where I can demonstrate my
-            skills and knowledge, add value to the workplace, leave my mark and
-            above all learn. I stand out for my good management of
-            communication, critical thinking and assertiveness in solving
-            problems.
+            looking for a challenging position where I can demonstrate my skills
+            and knowledge, add value to the workplace, leave my mark and above
+            all learn. I stand out for my good management of communication,
+            critical thinking and assertiveness in solving problems.
           </p>
-          <a download="RocioGL_CV" href={CV} className="button button__flex">
+          <a
+            download="RocioGL_CV"
+            href={CVRocioGarciaLofrano}
+            className="button button__flex"
+          >
             Download CV
             <svg
               class="button__icon"
