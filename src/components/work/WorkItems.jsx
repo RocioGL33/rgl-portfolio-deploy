@@ -11,7 +11,7 @@ const WorkItems = ({ item }) => {
         target="_blank"
         rel="noreferrer"
       >
-        Repository <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        Visit site <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
     </div>
   );

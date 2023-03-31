@@ -16,15 +16,20 @@ const About = () => {
           <Info />
           <p className="about__description">
             I started my studies in 2021, at the SoyHenry Bootcamp where I
-            acquired more than 800 hours of intensive learning with real
-            individual and group projects. I decided then that this was the
-            world where I wanted to develop professionally. Since then I found
-            myself creating websites where I try to improve my techniques more
-            and more. As a creative, determined and exploring person, I am
-            looking for a challenging position where I can demostrate my skills
-            and knowledge, add value to the workplace, leave my mark and above
-            all learn. I stand out for my good management of communication,
-            critical thinking and assertiveness in solving problems.
+            acquired more than 800 hours of intensive learning doing individual
+            and group projects. I decided then that this was the world in which
+            I wanted to develop professionally. Today I continue to train
+            professionally in the Bootcamp of Argentina Program 4.0.
+          </p>
+          <p className="about__description">
+            Among my main Soft Skills are my good management of communication,
+            and assertiveness in problem solving, teamwork but also my
+            independence.
+          </p>
+          <p className="about__description">
+            Today, I feel much more comfortable working as a Frontend, since I
+            stand out for my creativity, attention to detail and a critical eye,
+            which increases my curiosity and love for this huge world.
           </p>
           <a
             download="RocioGL_CV"
