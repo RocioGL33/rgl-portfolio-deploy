@@ -12,7 +12,7 @@
         "subtitle": "I'm Full Stack Developer.",
         "p": "Based in Buenos Aires, Argentina. Passionate about code and learning new things. Welcome to my portfolio! ❤",
         "button_home": "Contact me",
-        "scroll": "Scroll down"
+        "scrolldown": "Scroll down"
     },
     "about": {
         "experience_1": "Experience with groups",
