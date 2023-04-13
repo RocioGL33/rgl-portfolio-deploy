@@ -33,6 +33,18 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
+            <i className="bx bxl-tailwind-css"></i>
+            <div>
+              <h3 className="skills__name">Tailwind</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Material UI</h3>
+            </div>
+          </div>
+          <div className="skills__data">
             <i className="bx bxl-bootstrap"></i>
             <div>
               <h3 className="skills__name">Bootstrap</h3>
@@ -54,6 +66,12 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Next</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bxl-redux"></i>
+            <div>
+              <h3 className="skills__name">Redux Toolkit</h3>
             </div>
           </div>
         </div>
