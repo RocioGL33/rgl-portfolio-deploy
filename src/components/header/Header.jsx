@@ -73,7 +73,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon" />
+                <i className="uil uil-briefcase-alt nav__icon" />
                 {t("header.qualification")}
               </a>
             </li>
