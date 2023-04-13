@@ -1,0 +1,64 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "skills": "Habilidades",
+        "qualification": "Experiencia",
+        "projects": "Proyectos",
+        "contactMe": "Contáctame"
+    },
+    "home": {
+        "title": "Hola, me llamo Rocio Garcia Lofrano",
+        "subtitle": "Soy Full Stack Developer.",
+        "p": "Vivo en Buenos Aires, Argentina. Apasionada por el código y por aprender cosas nuevas. Bienvenido a mi portfolio! ❤",
+        "button_home": "Contáctame",
+        "scrolldown": "Scrollea hacia abajo"
+    },
+    "about": {
+        "experience_1": "Experiencia en manejo de grupos",
+        "subtitle_1": "Teaching Assistant en Henry",
+        "experience_2": "Voluntariado en ONG",
+        "subtitle_2": "Mentora en Chicas Programadoras",
+        "about_title": "Sobre mi",
+        "introduction": "Quien soy",
+        "p_1": "Inicié mis estudios en 2021, en SoyHenry, un Bootcamp donde he adquirido más de 800 horas de aprendizaje intensivo haciendo proyectos de forma individual y en grupo. Decidí en ese entonces que este era el mundo en el que quería desarrollarme profesionalmente. Hoy sigo perfeccionándome profesionalmente en el Bootcamp Argentina Programa 4.0.",
+        "p_2": "Entre mis principales Soft Skills se encuentran mi buen manejo de la comunicación, determinación y asertividad en la resolución de problemas, mi excelente predisposición al trabajo en equipo pero también mi independencia.",
+        "p_3": "Hoy elijo y amo trabajar como Frontend, ya que resalta mi creatividad, pasión por el diseño, atención al detalle y ojo crítico, lo que aumenta mi curiosidad y amor por este mundo tecnológico.",
+        "cv": "Descargar CV"
+    },
+    "skills": {
+        "skill_title": "Habilidades",
+        "skill_subtitle": "Tecnologías y frameworks con los que trabajo"
+    },
+    "qualification": {
+        "q_title": "Experiencia",
+        "q_subtitle": "Mi trayectoria en el mundo IT",
+        "education": "Educación",
+        "experience": "Experiencia",
+        "calendar": " Febrero 2023 - Actualidad",
+        "calendar_2": "Enero 2023 - Actualidad",
+        "experience_2": "Mentora",
+        "calendar_3": "Marzo 2022 - Julio 2022"
+    },
+    "projects": {
+        "projects_title": "Proyectos",
+        "projects_subtitle": "Mis pasos en el mundo IT",
+        "visit": "Visitar sitio"
+    },
+    "contact": {
+        "contact_title": "Contáctame",
+        "get_in_touch": "Mi contacto",
+        "email": "Correo electrónico",
+        "write_me": "Escríbeme",
+        "offer": "Si tienes alguna oferta o feedback puedes dejarlo aquí abajo!",
+        "name": "Nombre",
+        "message": "Mensaje",
+        "insert_1": "Inserta tu nombre",
+        "insert_2": "Inserta tu correo electrónico",
+        "insert_3": "Inserta tu mensaje",
+        "send": "Enviar"
+    },
+    "footer": {
+        "copy": "Hecho con ❤ por Rocio Garcia Lofrano."
+    }
+}

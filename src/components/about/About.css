@@ -97,4 +97,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .about__data {
+        padding-right: 16px;
+    }
+
   }

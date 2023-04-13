@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 import "./Contact.css";
 
 const Contact = () => {
+  const [t, i18n] = useTranslation("global");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,16 +21,16 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contact me</h2>
+      <h2 className="section__title">{t("contact.contact_title")}</h2>
       <span className="section__subtitle"></span>
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Get in touch</h3>
+          <h3 className="contact__title">{t("contact.get_in_touch")}</h3>
 
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-              <h3 className="contact__card-title">E-mail</h3>
+              <h3 className="contact__card-title">{t("contact.email")}</h3>
               <span className="contact__card-data">rocio33gl@gmail.com</span>
               <a
                 href="mailto:rocio33gl@gmail.com.com"
@@ -36,7 +38,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Write me{" "}
+                {t("contact.write_me")}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -51,7 +53,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Write me{" "}
+                {t("contact.write_me")}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -59,44 +61,44 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">
-            If you have any job offer or feedback you can do it here below!
-          </h3>
+          <h3 className="contact__title">{t("contact.offer")}</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">{t("contact.name")}</label>
               <input
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder={t("contact.insert_1")}
               />
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">{t("contact.email")}</label>
               <input
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Insert your e-mail"
+                placeholder={t("contact.insert_2")}
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Message</label>
+              <label className="contact__form-tag">
+                {t("contact.message")}
+              </label>
               <textarea
                 name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your message"
+                placeholder={t("contact.insert_3")}
               ></textarea>
             </div>
 
             <button className="button button__flex">
-              Send
+              {t("contact.send")}
               <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

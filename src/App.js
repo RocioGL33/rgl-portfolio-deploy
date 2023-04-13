@@ -9,22 +9,42 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Qualification from "./components/qualification/Qualification";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+
+import global_es from "./translations/es/global.json";
+import global_en from "./translations/en/global.json";
+
+i18next.init({
+  interpolation: { escapeValue: false },
+  lng: "es",
+  resources: {
+    es: {
+      global: global_es,
+    },
+    en: {
+      global: global_en,
+    },
+  },
+});
 
 const App = () => {
   return (
     <>
-      <Header />
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Qualification />
-        <Work />
-        <Contact />
-      </main>
+      <I18nextProvider i18n={i18next}>
+        <Header />
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Qualification />
+          <Work />
+          <Contact />
+        </main>
 
-      <Footer />
-      <ScrollUp />
+        <Footer />
+        <ScrollUp />
+      </I18nextProvider>
     </>
   );
 };

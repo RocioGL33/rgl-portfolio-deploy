@@ -1,0 +1,64 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "qualification": "Qualification",
+        "projects": "Projects",
+        "contactMe": "Contact Me"
+    },
+    "home": {
+        "title": "Hi, I'ts Rocio Garcia Lofrano",
+        "subtitle": "I'm Full Stack Developer.",
+        "p": "Based in Buenos Aires, Argentina. Passionate about code and learning new things. Welcome to my portfolio! ❤",
+        "button_home": "Contact me",
+        "scroll": "Scroll down"
+    },
+    "about": {
+        "experience_1": "Experience with groups",
+        "subtitle_1": "Teaching Assistant in Henry",
+        "experience_2": "ONG Volunteering",
+        "subtitle_2": "Mentor at Chicas Programadoras",
+        "about_title": "About me",
+        "introduction": "My introduction",
+        "p_1": "I started my studies in 2021, at the SoyHenry Bootcamp where I acquired more than 800 hours of intensive learning doing individual and group projects. I decided then that this was the world in which I wanted to develop professionally. Today I continue to train professionally in the Bootcamp of Argentina Program 4.0.",
+        "p_2": "Among my main Soft Skills are my good management of communication, and assertiveness in problem solving, teamwork but also my independence.",
+        "p_3": "Today, I feel much more comfortable working as a Frontend, since I stand out for my creativity, attention to detail and a critical eye, which increases my curiosity and love for this huge world.",
+        "cv": "Download CV"
+    },
+    "skills": {
+        "skill_title": "Skills",
+        "skill_subtitle": "Technologies and Frameworks I worked with"
+    },
+    "qualification": {
+        "q_title": "Qualification",
+        "q_subtitle": "My Personal Journey",
+        "education": "Education",
+        "experience": "Experience",
+        "calendar": " February 2023 - Present",
+        "calendar_2": "January 2023 - Present",
+        "experience_2": "Mentor",
+        "calendar_3": "March 2022 - July 2022"
+    },
+    "projects": {
+        "projects_title": "Projects",
+        "projects_subtitle": "My journey in IT",
+        "visit": "Visit site"
+    },
+    "contact": {
+        "contact_title": "Contact me",
+        "get_in_touch": "Get in touch",
+        "email": "E-mail",
+        "write_me": "Write me",
+        "offer": "If you have any job offer or feedback you can do it here below!",
+        "name": "Name",
+        "message": "Message",
+        "insert_1": "Insert your name",
+        "insert_2": "Insert your e-mail",
+        "insert_3": "Write your message",
+        "send": "Send"
+    },
+    "footer": {
+        "copy": "Made with ❤ by Rocio Garcia Lofrano."
+    }
+}

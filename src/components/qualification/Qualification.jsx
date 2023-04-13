@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./Qualification.css";
 
 const Qualification = () => {
+  const [t, i18n] = useTranslation("global");
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -10,8 +12,8 @@ const Qualification = () => {
 
   return (
     <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My Personal Journey</span>
+      <h2 className="section__title">{t("qualification.q_title")}</h2>
+      <span className="section__subtitle">{t("qualification.q_subtitle")}</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -24,7 +26,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            {t("qualification.education")}
           </div>
 
           <div
@@ -36,7 +38,7 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            {t("qualification.experience")}
           </div>
         </div>
 
@@ -58,25 +60,17 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
             </div>
+            <h4>_______________</h4>
             <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
               <div>
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
                   Argentina Programa 4.0 - Bootcamp
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> Actualidad
+                  <i className="uil uil-calendar-alt"></i>
+                  {t("qualification.calendar")}
                 </div>
               </div>
             </div>
@@ -94,14 +88,24 @@ const Qualification = () => {
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">Betriax - Perú</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> January 2023 -
-                  Present
+                  <i className="uil uil-calendar-alt"></i>
+                  {t("qualification.calendar_2")}
                 </div>
               </div>
-
+            </div>
+            <h4>_______________</h4>
+            <div className="qualification__data">
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <h3 className="qualification__title">
+                  {t("qualification.experience_2")}
+                </h3>
+                <span className="qualification__subtitle">
+                  Chicas Programadoras
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  {t("qualification.calendar_3")}
+                </div>
               </div>
             </div>
           </div>

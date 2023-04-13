@@ -50,18 +50,4 @@ export const projects = [
     category: "web",
     url: "https://github.com/RocioGL33/WorldOfMovies",
   },
-  {
-    id: 7,
-    image: Counter,
-    title: "Simple Counter",
-    category: "web",
-    url: "https://github.com/RocioGL33/ContadorReact-CSS",
-  },
-  {
-    id: 8,
-    image: Snake,
-    title: "Snake Game",
-    category: "web",
-    url: "https://github.com/RocioGL33/SnakeGame",
-  },
 ];

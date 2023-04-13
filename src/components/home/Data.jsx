@@ -1,10 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Data = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Hi, I'ts Rocio Garcia Lofrano
+        {t("home.title")}
         <svg
           width="36"
           height="36"
@@ -55,14 +58,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">I'm Full Stack Developer</h3>
-      <p className="home__description">
-        Based in Buenos Aires, Argentina, passionate about code and learning new
-        things. Welcome to my portfolio! ❤
-      </p>
+      <h3 className="home__subtitle">{t("home.subtitle")}</h3>
+      <p className="home__description">{t("home.p")}</p>
 
       <a href="#contact" className="button button__flex">
-        Contact me
+        {t("home.button_home")}
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"

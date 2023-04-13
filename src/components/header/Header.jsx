@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+
+import { useTranslation } from "react-i18next";
 import "./Header.css";
 
 const Header = () => {
+  const [t, i18n] = useTranslation("global");
+
   /* Change background header */
   window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header");
@@ -30,7 +34,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-estate nav__icon " />
-                Home
+                {t("header.home")}
               </a>
             </li>
             <li className="nav__item">
@@ -42,7 +46,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-user nav__icon" />
-                About
+                {t("header.about")}
               </a>
             </li>
             <li className="nav__item">
@@ -56,7 +60,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-file-alt nav__icon" />
-                Skills
+                {t("header.skills")}
               </a>
             </li>
             <li className="nav__item">
@@ -70,7 +74,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-scenery nav__icon" />
-                Qualification
+                {t("header.qualification")}
               </a>
             </li>
             <li className="nav__item">
@@ -84,7 +88,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-scenery nav__icon" />
-                Projects
+                {t("header.projects")}
               </a>
             </li>
             <li className="nav__item">
@@ -98,7 +102,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-message nav__icon" />
-                Contact me
+                {t("header.contactMe")}
               </a>
             </li>
           </ul>
@@ -107,6 +111,20 @@ const Header = () => {
             className="uil uil-times nav__close"
             onClick={() => setToggle(!toggle)}
           ></i>
+        </div>
+        <div>
+          <button
+            onClick={() => i18n.changeLanguage("es")}
+            className="button__translate__1"
+          >
+            ES
+          </button>
+          <button
+            onClick={() => i18n.changeLanguage("en")}
+            className="button__translate"
+          >
+            EN
+          </button>
         </div>
 
         <div className="nav__toggle" onClick={() => setToggle(!toggle)}>

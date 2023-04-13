@@ -3,40 +3,29 @@ import "./About.css";
 import AboutImg from "../../assets/About.png";
 import CVRocioGarciaLofrano from "../../assets/CVRocioGarciaLofrano.pdf";
 import Info from "./Info";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title">{t("about.about_title")}</h2>
+      <span className="section__subtitle">{t("about.introduction")}</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="No found" className="about__img" />
         <div className="about__data">
           <Info />
-          <p className="about__description">
-            I started my studies in 2021, at the SoyHenry Bootcamp where I
-            acquired more than 800 hours of intensive learning doing individual
-            and group projects. I decided then that this was the world in which
-            I wanted to develop professionally. Today I continue to train
-            professionally in the Bootcamp of Argentina Program 4.0.
-          </p>
-          <p className="about__description">
-            Among my main Soft Skills are my good management of communication,
-            and assertiveness in problem solving, teamwork but also my
-            independence.
-          </p>
-          <p className="about__description">
-            Today, I feel much more comfortable working as a Frontend, since I
-            stand out for my creativity, attention to detail and a critical eye,
-            which increases my curiosity and love for this huge world.
-          </p>
+          <p className="about__description">{t("about.p_1")}</p>
+          <p className="about__description">{t("about.p_2")}</p>
+          <p className="about__description">{t("about.p_3")}</p>
           <a
             download="RocioGL_CV"
             href={CVRocioGarciaLofrano}
             className="button button__flex"
           >
-            Download CV
+            {t("about.cv")}
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
