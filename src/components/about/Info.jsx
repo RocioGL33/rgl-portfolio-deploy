@@ -14,7 +14,7 @@ const Info = () => {
       <div className="about__box">
         <i class="bx bx-award about__icon"></i>
         <h3 className="about__title">{t("about.experience_2")}</h3>
-        <span className="about__subtitle">{t("about.experience_2")}</span>
+        <span className="about__subtitle">{t("about.subtitle_2")}</span>
       </div>
     </div>
   );
