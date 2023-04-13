@@ -8,18 +8,25 @@
 }
 
 .button__translate__1 {
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: var(--container-color);
+  color: var(--title-color);
+  border: 1px solid var(--text-color);
   padding: 5px 10px;
   border-radius: 8px;
   margin-right: 5px;
 }
 
 .button__translate {
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: var(--container-color);
+  color: var(--title-color);
+  border: 1px solid var(--text-color);
   padding: 5px 10px;
   border-radius: 8px;
+}
+
+.button__translate:hover, .button__translate__1:hover {
+  background-color: var(--title-color);
+  color: var(--container-color);
 }
 
 .nav {
@@ -140,4 +147,5 @@
   .nav__list {
     column-gap: 0;
   }
+
 }
