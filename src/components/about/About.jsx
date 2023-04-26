@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import AboutImg from "../../assets/About.png";
-import CVRocioGarciaLofrano from "../../assets/CVRocioGarciaLofrano.pdf";
+import CV from "../../assets/CV_RocioGarciaLofranoES.pdf";
 import Info from "./Info";
 import { useTranslation } from "react-i18next";
 
@@ -20,11 +20,7 @@ const About = () => {
           <p className="about__description">{t("about.p_1")}</p>
           <p className="about__description">{t("about.p_2")}</p>
           <p className="about__description">{t("about.p_3")}</p>
-          <a
-            download="RocioGL_CV"
-            href={CVRocioGarciaLofrano}
-            className="button button__flex"
-          >
+          <a download="RocioGL_CV" href={CV} className="button button__flex">
             {t("about.cv")}
             <svg
               class="button__icon"
