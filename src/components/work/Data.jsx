@@ -1,9 +1,6 @@
 import Pokeland from "../../assets/Pokeland.png";
 import Portfolio from "../../assets/Portfolio.png";
 import Movies from "../../assets/Movies.jpg";
-import RetroPokedex from "../../assets/RetroPokedex.png";
-import Snake from "../../assets/Snake.png";
-import Counter from "../../assets/Counter.png";
 import Betriax from "../../assets/Betriax.png";
 import DolarBoliviano from "../../assets/DolarBoliviano.png";
 
@@ -37,17 +34,10 @@ export const projects = [
     url: "https://github.com/RocioGL33/portfolio-project-nextjs",
   },
   {
-    id: 5,
-    image: RetroPokedex,
-    title: "Retro Pokédex",
-    category: "web",
-    url: "https://github.com/RocioGL33/Retro-Pokedex",
-  },
-  {
     id: 6,
     image: Movies,
     title: "World of Movies",
     category: "web",
-    url: "https://github.com/RocioGL33/WorldOfMovies",
+    url: "worldofmovies.vercel.app",
   },
 ];
