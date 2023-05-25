@@ -21,23 +21,23 @@ export const projects = [
   },
   {
     id: 3,
+    image: Movies,
+    title: "World of Movies",
+    category: "web",
+    url: "https://world-of-movies-rociogl33.vercel.app/",
+  },
+  {
+    id: 4,
     image: Pokeland,
     title: "PokéLand",
     category: "web",
     url: "https://github.com/RocioGL33/PokeLand",
   },
   {
-    id: 4,
+    id: 5,
     image: Portfolio,
     title: "Next Portfolio",
     category: "web",
     url: "https://github.com/RocioGL33/portfolio-project-nextjs",
-  },
-  {
-    id: 6,
-    image: Movies,
-    title: "World of Movies",
-    category: "web",
-    url: "https://world-of-movies-rociogl33.vercel.app/",
   },
 ];
