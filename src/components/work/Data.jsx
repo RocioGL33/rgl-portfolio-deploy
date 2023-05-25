@@ -38,6 +38,6 @@ export const projects = [
     image: Movies,
     title: "World of Movies",
     category: "web",
-    url: "worldofmovies.vercel.app",
+    url: "https://world-of-movies-rociogl33.vercel.app/",
   },
 ];
