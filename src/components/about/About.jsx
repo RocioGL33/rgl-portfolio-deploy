@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import AboutImg from "../../assets/About.png";
-import CV from "../../assets/CV_RocioGarciaLofranoES.pdf";
+import CV from "../../assets/ES-CVRocioGarcia.pdf";
 import Info from "./Info";
 import { useTranslation } from "react-i18next";
 
