@@ -8,22 +8,22 @@
         "contactMe": "Contáctame"
     },
     "home": {
-        "title": "Hola, me llamo Rocio Garcia Lofrano",
-        "subtitle": "Soy Frontend Developer.",
-        "p": "Vivo en Buenos Aires, Argentina. Apasionada por el código y por aprender cosas nuevas. Bienvenido/a a mi portfolio! ❤",
+        "title": "Hola, soy Rocio Garcia Lofrano",
+        "subtitle": "Frontend Developer.",
+        "p": "Viviendo en Buenos Aires, Argentina. Bienvenido/a a mi portfolio! ❤",
         "button_home": "Contáctame",
         "scrolldown": "Scrollea hacia abajo"
     },
     "about": {
-        "experience_1": "Experiencia en manejo de grupos",
+        "experience_1": "Manejo de grupos",
         "subtitle_1": "Teaching Assistant en Henry",
-        "experience_2": "Voluntariado en ONG",
-        "subtitle_2": "Mentora en Chicas Programadoras",
+        "experience_2": "Mentoría en ONG",
+        "subtitle_2": "Chicas Programadoras",
         "about_title": "Sobre mi",
-        "introduction": "Quien soy",
-        "p_1": "Inicié mis estudios en 2021, en SoyHenry, un Bootcamp donde he adquirido más de 800 horas de aprendizaje intensivo haciendo proyectos de forma individual y en grupo. Decidí en ese entonces que este era el mundo en el que quería desarrollarme profesionalmente. Hoy sigo perfeccionándome sumando nuevos cursos que potencien mis habilidades.",
-        "p_2": "Entre mis principales Soft Skills se encuentran mi buen manejo de la comunicación, determinación y asertividad en la resolución de problemas, mi excelente predisposición al trabajo en equipo pero también mi independencia.",
-        "p_3": "Hoy elijo y amo trabajar como Frontend, ya que resalta mi creatividad, pasión por el diseño, atención al detalle y ojo crítico, lo que aumenta mi curiosidad y amor por este mundo tecnológico.",
+        "introduction": "Quien soy?",
+        "p_1": "Soy una persona muy creativa, especialmente en el campo tecnológico. Actualmente trabajo como desarrolladora frontend, creando interfaces atractivas e intuitivas para que los usuarios interactúen con aplicaciones web. Recientemente, he comenzado a adentrarme en el desarrollo móvil, explorando cómo llevar mis habilidades de diseño y programación a las apps.",
+        "p_2": "Además de la programación, también disfruto crear contenidos en 3D. Hace poco estuve experimentando con modelado 3D y encontré que es una forma única y atractiva de plasmar mis ideas. El proceso creativo y el resultado visual me parecieron fascinantes.",
+        "p_3": "En general, me apasiona mucho el diseño y tengo un buen ojo para él. Entiendo los principios del diseño visual y cómo crear experiencias agradables para los usuarios. Me gusta trabajar en equipo, colaborando con diseñadores y otros developers, pero también soy muy autodidacta y motivada para aprender por mi cuenta.",
         "cv": "Descargar CV"
     },
     "skills": {
@@ -32,25 +32,28 @@
     },
     "qualification": {
         "q_title": "Experiencia",
-        "q_subtitle": "Mi trayectoria en el mundo IT",
-        "education": "Educación",
-        "experience": "Experiencia",
-        "calendar": " Febrero 2023 - Actualidad",
-        "calendar_2": "Enero 2023 - Actualidad",
+        "q_subtitle": "Mi camino en el mundo IT",
+        "education": "Formación",
+        "experience": "Experiencia Laboral",
+        "calendar": "2023",
+        "calendar_2": "Enero 2023 - Julio 2023",
         "experience_2": "Mentora",
-        "calendar_3": "Marzo 2022 - Julio 2022"
+        "calendar_3": "Marzo 2022 - Julio 2022",
+        "calendar_4": "Mayo 2023 - Actualidad"
     },
     "projects": {
         "projects_title": "Proyectos",
-        "projects_subtitle": "Mis pasos en el mundo IT",
-        "visit": "Visitar sitio"
+        "project_1": "3D Models",
+        "projects_subtitle": "My journey in IT",
+        "projects_subtitle_1": "",
+        "visit": "Entrar"
     },
     "contact": {
         "contact_title": "Contáctame",
-        "get_in_touch": "Mi contacto",
+        "get_in_touch": "Mis datos",
         "email": "Correo electrónico",
         "write_me": "Escríbeme",
-        "offer": "Si tienes alguna oferta o feedback puedes dejarlo aquí abajo!",
+        "offer": "Si tenés alguna oferta o feedback puedes dejarlo acá abajo!",
         "name": "Nombre",
         "message": "Mensaje",
         "insert_1": "Inserta tu nombre",
@@ -59,6 +62,6 @@
         "send": "Enviar"
     },
     "footer": {
-        "copy": "Hecho con ❤ por Rocio Garcia Lofrano."
+        "copy": "Hecho con ❤ por mi."
     }
 }

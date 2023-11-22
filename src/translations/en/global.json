@@ -10,20 +10,20 @@
     "home": {
         "title": "Hi, I'ts Rocio Garcia Lofrano",
         "subtitle": "I'm Frontend Developer.",
-        "p": "Based in Buenos Aires, Argentina. Passionate about code and learning new things. Welcome to my portfolio! ❤",
+        "p": "Living in Buenos Aires, Argentina. Welcome to my portfolio! ❤",
         "button_home": "Contact me",
         "scrolldown": "Scroll down"
     },
     "about": {
         "experience_1": "Experience with groups",
         "subtitle_1": "Teaching Assistant in Henry",
-        "experience_2": "ONG Volunteering",
-        "subtitle_2": "Mentor at Chicas Programadoras",
+        "experience_2": "ONG Mentoring",
+        "subtitle_2": "Chicas Programadoras",
         "about_title": "About me",
         "introduction": "My introduction",
-        "p_1": "I started my studies in 2021, at the SoyHenry Bootcamp where I acquired more than 800 hours of intensive learning doing individual and group projects. I decided then that this was the world in which I wanted to develop professionally. Today I continue to perfect myself by adding new courses that enhance my skills.",
-        "p_2": "Among my main Soft Skills are my good management of communication, determination and assertiveness in problem solving, teamwork but also my independence.",
-        "p_3": "Today I choose and love to work as a Frontend, since it highlights my creativity, passion for design, attention to detail and critical eye, which increases my curiosity and love for this technological world.",
+        "p_1": "I am a very creative person, especially in the technology field. I currently work as a frontend developer, creating attractive and intuitive interfaces for users to interact with web applications. Recently, I have started to delve into mobile development, exploring how to bring my design and programming skills to apps.",
+        "p_2": "In addition to programming, I also enjoy creating 3D content. I was recently experimenting with 3D modeling and found it to be a unique and engaging way to bring my ideas to life. The creative process and the visual outcome were both fascinating to me.",
+        "p_3": "In general, I am very passionate about design and have a good eye for it. I understand the principles of visual design and how to create pleasant user experiences. I like working in teams, collaborating with designers and other developers, but I am also very self-motivated and driven to learn on my own.",
         "cv": "Download CV"
     },
     "skills": {
@@ -32,18 +32,21 @@
     },
     "qualification": {
         "q_title": "Qualification",
-        "q_subtitle": "My Personal Journey",
+        "q_subtitle": "My Personal Journey in IT",
         "education": "Education",
-        "experience": "Experience",
-        "calendar": " February 2023 - Present",
-        "calendar_2": "January 2023 - Present",
+        "experience": "Job Experience",
+        "calendar": "2023",
+        "calendar_2": "January 2023 - May 2023",
         "experience_2": "Mentor",
-        "calendar_3": "March 2022 - July 2022"
+        "calendar_3": "March 2022 - July 2022",
+        "calendar_4": "May 2023 - Now"
     },
     "projects": {
         "projects_title": "Projects",
+        "project_1": "3D Models",
         "projects_subtitle": "My journey in IT",
-        "visit": "Visit site"
+        "projects_subtitle_1": "",
+        "visit": "Visit"
     },
     "contact": {
         "contact_title": "Contact me",

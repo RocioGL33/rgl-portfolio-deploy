@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
 import AboutImg from "../../assets/About.png";
-import CV from "../../assets/ES-CVRocioGarcia.pdf";
+import CV from "../../assets/CV_ROCIO_ES.pdf";
 import Info from "./Info";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
     <section className="about section" id="about">
@@ -23,7 +23,7 @@ const About = () => {
           <a download="RocioGL_CV" href={CV} className="button button__flex">
             {t("about.cv")}
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

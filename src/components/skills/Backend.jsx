@@ -33,12 +33,6 @@ const Backend = () => {
               <h3 className="skills__name">Node JS</h3>
             </div>
           </div>
-          <div className="skills__data">
-            <i className="bx bxl-firebase"></i>
-            <div>
-              <h3 className="skills__name">Firebase</h3>
-            </div>
-          </div>
         </div>
       </div>
     </div>

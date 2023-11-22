@@ -1,21 +1,35 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
+import Swal from "sweetalert2";
 import "./Contact.css";
 
 const Contact = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_f0rlqap",
-      "template_jnjijpb",
-      form.current,
-      "e4rSY0GfrabNd-n1E"
-    );
+    emailjs
+      .sendForm(
+        "service_f0rlqap",
+        "template_jnjijpb",
+        form.current,
+        "wa0oTtNO0bC0UBuhC"
+      )
+      .then(
+        (result) => {
+          Swal.fire("Mensaje enviado!");
+        },
+        (error) => {
+          Swal.fire({
+            icon: "error",
+            title: "Mensaje no enviado",
+            text: "Por favor, intenta nuevamente",
+          });
+        }
+      );
     e.target.reset();
   };
 

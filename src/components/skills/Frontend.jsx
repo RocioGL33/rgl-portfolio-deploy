@@ -35,7 +35,7 @@ const Frontend = () => {
           <div className="skills__data">
             <i className="bx bxl-tailwind-css"></i>
             <div>
-              <h3 className="skills__name">Tailwind</h3>
+              <h3 className="skills__name">TailwindCSS</h3>
             </div>
           </div>
           <div className="skills__data">
@@ -57,15 +57,27 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-redux"></i>
+            <i className="bx bxl-react"></i>
             <div>
-              <h3 className="skills__name">Redux</h3>
+              <h3 className="skills__name">React Native</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-mobile-alt"></i>
+            <div>
+              <h3 className="skills__name">Expo</h3>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Next</h3>
+              <h3 className="skills__name">Next JS</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bxl-redux"></i>
+            <div>
+              <h3 className="skills__name">Redux</h3>
             </div>
           </div>
           <div className="skills__data">

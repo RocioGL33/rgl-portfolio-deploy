@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./Qualification.css";
 
 const Qualification = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -64,10 +64,10 @@ const Qualification = () => {
             <h4>_______________</h4>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">
-                  Argentina Programa 4.0 - Bootcamp
-                </span>
+                <h3 className="qualification__title">
+                  Digital Marketing Fundamentals
+                </h3>
+                <span className="qualification__subtitle">Google Actívate</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
                   {t("qualification.calendar")}
@@ -83,6 +83,19 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Frontend Web & Mobile Developer
+                </h3>
+                <span className="qualification__subtitle">Holocruxe - Arg</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  {t("qualification.calendar_4")}
+                </div>
+              </div>
+            </div>
+            <h4>_______________</h4>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>

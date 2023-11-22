@@ -5,7 +5,7 @@ import "./Skills.css";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
     <section className="skills section" id="skills">

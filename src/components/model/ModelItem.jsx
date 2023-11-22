@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const WorkItems = ({ item }) => {
-  const [t] = useTranslation("global");
+const ModelItems = ({ item }) => {
+  const [t, i18n] = useTranslation("global");
 
   return (
     <div className="work__card" key={item.id}>
@@ -21,4 +21,4 @@ const WorkItems = ({ item }) => {
   );
 };
 
-export default WorkItems;
+export default ModelItems;
