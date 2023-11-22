@@ -16,7 +16,7 @@ export const models = [
     image: Avatar,
     title: "My Avatar",
     category: "web",
-    url: "https://my.spline.design/untitled-74025f5c1c55db3c60509df6f6bcedbd/",
+    url: "https://app.spline.design/file/d8ed1c2e-a3fd-49a8-97f3-717204367faf",
   },
   {
     id: 3,
