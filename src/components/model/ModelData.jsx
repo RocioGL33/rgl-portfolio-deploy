@@ -28,7 +28,7 @@ export const models = [
   {
     id: 4,
     image: Cursor,
-    title: "Follow Cursor",
+    title: "Follow Cursor (Web)",
     category: "web",
     url: "https://my.spline.design/cursorfollow-3972bc24ad0331cc9306c6c69dba7085/",
   },
