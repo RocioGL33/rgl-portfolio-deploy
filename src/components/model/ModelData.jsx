@@ -7,7 +7,7 @@ export const models = [
   {
     id: 1,
     image: Holobot,
-    title: "Login Holocruxe",
+    title: "Login Holocruxe (Web)",
     category: "web",
     url: "https://web.holocruxe.com/login/",
   },
