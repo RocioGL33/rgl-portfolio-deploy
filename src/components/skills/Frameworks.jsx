@@ -14,7 +14,7 @@ const Frameworks = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i className="bx bxl-mongodb"></i>
+            <i class="bx bx-mobile-alt"></i>
             <div>
               <h3 className="skills__name">Expo/ExpoGO</h3>
             </div>

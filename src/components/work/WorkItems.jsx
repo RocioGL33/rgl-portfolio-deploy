@@ -8,6 +8,14 @@ const WorkItems = ({ item }) => {
     <div className="work__card" key={item.id}>
       <img src={item.image} alt="Not Found" className="work__img" />
       <h3 className="work__title">{item.title}</h3>
+      <h5>{item.category}</h5>
+      <br />
+      <p className="work__desc">{item.description}</p>
+      <br />
+      <p className="work__desc">
+        <b>{item.techStack}</b>
+      </p>
+      <br />
       <a
         href={item.url}
         className="work__button"
