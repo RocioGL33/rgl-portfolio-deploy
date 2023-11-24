@@ -3,6 +3,7 @@ import Movies from "../../assets/Movies.jpg";
 import Betriax from "../../assets/Betriax.png";
 import Job from "../../assets/jobsearch.png";
 import DolarBoliviano from "../../assets/DolarBoliviano.png";
+import APK from "../../assets/jobSearch.apk";
 
 export const projects = [
   {
@@ -10,7 +11,7 @@ export const projects = [
     image: Job,
     title: "JobSearch",
     category: "Mobile",
-    url: "",
+    url: APK,
     description: "Aplicación Móvil para encontrar empleo",
     techStack: "Tech Stack: React Native, Expo/ExpoGO, CSS",
   },

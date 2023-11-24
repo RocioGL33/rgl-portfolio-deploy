@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 const WorkItems = ({ item }) => {
   const [t] = useTranslation("global");
+  console.log(item.category);
 
   return (
     <div className="work__card" key={item.id}>
@@ -22,7 +23,9 @@ const WorkItems = ({ item }) => {
         target="_blank"
         rel="noreferrer"
       >
-        {t("projects.visit")}
+        {item.category === "Mobile"
+          ? t("projects.visit_2")
+          : t("projects.visit")}
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
     </div>
