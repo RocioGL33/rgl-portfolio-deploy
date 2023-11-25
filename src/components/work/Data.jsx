@@ -2,10 +2,22 @@ import Holocruxe from "../../assets/holocruxe.png";
 import Movies from "../../assets/Movies.jpg";
 import Betriax from "../../assets/Betriax.png";
 import Job from "../../assets/jobsearch.png";
+import Nft from "../../assets/nft.png";
 import DolarBoliviano from "../../assets/DolarBoliviano.png";
 import APK from "../../assets/jobSearch.apk";
+import APK2 from "../../assets/proNef.apk";
 
 export const projects = [
+  {
+    id: 1,
+    image: Nft,
+    title: "Pro Nef",
+    category: "Mobile",
+    url: APK2,
+    description:
+      "Aplicación Móvil para visualizar y ver los valores de distintos NFTs",
+    techStack: "Tech Stack: React Native, Expo/ExpoGO, CSS",
+  },
   {
     id: 1,
     image: Job,
@@ -16,7 +28,7 @@ export const projects = [
     techStack: "Tech Stack: React Native, Expo/ExpoGO, CSS",
   },
   {
-    id: 2,
+    id: 3,
     image: Holocruxe,
     title: "Holocruxe",
     category: "web",
@@ -27,7 +39,7 @@ export const projects = [
       "Tech Stack: Next.js, Typescript, React, MaterialUI, Materialize, Redux Toolkit, ThreeJS, Blender.",
   },
   {
-    id: 3,
+    id: 4,
     image: Betriax,
     title: "Betriax",
     category: "web",
@@ -37,7 +49,7 @@ export const projects = [
     techStack: "Tech Stack: Javascript, React, Redux Toolkit, TailwindCSS",
   },
   {
-    id: 4,
+    id: 5,
     image: DolarBoliviano,
     title: "Dolar Boliviano",
     category: "web",
@@ -47,7 +59,7 @@ export const projects = [
     techStack: "Tech Stack: React, Redux Toolkit, TailwindCSS",
   },
   {
-    id: 5,
+    id: 6,
     image: Movies,
     title: "World of Movies",
     category: "web",
