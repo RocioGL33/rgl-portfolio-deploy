@@ -5,13 +5,13 @@
         "skills": "Habilidades",
         "qualification": "Experiencia",
         "projects": "Proyectos",
-        "contactMe": "Contáctame"
+        "contactMe": "Contactame"
     },
     "home": {
         "title": "Hola, soy Rocio Garcia Lofrano",
         "subtitle": "Frontend Web Developer.",
         "p": "Bienvenido/a a mi portfolio! ❤",
-        "button_home": "Contáctame",
+        "button_home": "Contactame",
         "scrolldown": "Scrollea hacia abajo"
     },
     "about": {
@@ -50,10 +50,10 @@
         "visit_2": "Descargar"
     },
     "contact": {
-        "contact_title": "Contáctame",
+        "contact_title": "Contactame",
         "get_in_touch": "Mis datos",
         "email": "Correo electrónico",
-        "write_me": "Escríbeme",
+        "write_me": "Escribime",
         "offer": "Si tenés alguna oferta o feedback puedes dejarlo acá abajo!",
         "name": "Nombre",
         "message": "Mensaje",
