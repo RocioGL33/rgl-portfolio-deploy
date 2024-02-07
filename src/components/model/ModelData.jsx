@@ -1,16 +1,8 @@
 import Avatar from "../../assets/avatar.png";
 import ShinyBall from "../../assets/shinyball.png";
 import Cursor from "../../assets/cursor.png";
-import Holobot from "../../assets/holobot.png";
 
 export const models = [
-  {
-    id: 1,
-    image: Holobot,
-    title: "Login Holocruxe (for Web)",
-    category: "Model 3D Animated",
-    url: "https://web.holocruxe.com/login/",
-  },
   {
     id: 2,
     image: Avatar,

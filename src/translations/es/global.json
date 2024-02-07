@@ -9,8 +9,8 @@
     },
     "home": {
         "title": "Hola, soy Rocio Garcia Lofrano",
-        "subtitle": "Frontend Developer.",
-        "p": "Viviendo en Buenos Aires, Argentina. Bienvenido/a a mi portfolio! ❤",
+        "subtitle": "Frontend Web Developer.",
+        "p": "Bienvenido/a a mi portfolio! ❤",
         "button_home": "Contáctame",
         "scrolldown": "Scrollea hacia abajo"
     },
@@ -21,9 +21,9 @@
         "subtitle_2": "Chicas Programadoras",
         "about_title": "Sobre mi",
         "introduction": "Quien soy?",
-        "p_1": "Soy una persona muy creativa, especialmente en el campo tecnológico. Actualmente trabajo como desarrolladora frontend, creando interfaces atractivas e intuitivas para que los usuarios interactúen con aplicaciones web. Recientemente, he comenzado a adentrarme en el desarrollo móvil, explorando cómo llevar mis habilidades de diseño y programación a las apps.",
-        "p_2": "Además de la programación, también disfruto crear contenidos en 3D. Hace poco estuve experimentando con modelado 3D y encontré que es una forma única y atractiva de plasmar mis ideas. El proceso creativo y el resultado visual me parecieron fascinantes.",
-        "p_3": "En general, me apasiona mucho el diseño y tengo un buen ojo para él. Entiendo los principios del diseño visual y cómo crear experiencias agradables para los usuarios. Me gusta trabajar en equipo, colaborando con diseñadores y otros developers, pero también soy muy autodidacta y motivada para aprender por mi cuenta.",
+        "p_1": "Soy una persona muy creativa, adaptable y eficiente, especialmente en el campo tecnológico. Actualmente trabajo como desarrolladora frontend, creando interfaces interesantes e intuitivas para que los usuarios interactúen con aplicaciones web.",
+        "p_2": "Además de la programación, también disfruto crear contenidos en 3D ya que encontré que es una forma muy atractiva de plasmar mis ideas. El proceso creativo y el resultado me parecieron fascinantes.",
+        "p_3": "En general, me interesa mucho el diseño y considero que tengo un buen ojo para él. Entiendo los principios del diseño visual y cómo crear experiencias agradables para los usuarios. Me gusta trabajar en equipo, colaborando con diseñadores y otros developers, pero también soy autodidacta e independiente.",
         "cv": "Descargar CV"
     },
     "skills": {
@@ -39,7 +39,7 @@
         "calendar_2": "Enero 2023 - Julio 2023",
         "experience_2": "Mentora",
         "calendar_3": "Marzo 2022 - Julio 2022",
-        "calendar_4": "Mayo 2023 - Actualidad"
+        "calendar_4": "Enero 2024 - Actualidad"
     },
     "projects": {
         "projects_title": "Proyectos",

@@ -13,6 +13,12 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
+            <i className="bx bxs-rocket"></i>
+            <div>
+              <h3 className="skills__name">Astro</h3>
+            </div>
+          </div>
+          <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Next JS</h3>

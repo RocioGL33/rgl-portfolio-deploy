@@ -42,7 +42,6 @@ const ScrollDown = () => {
           ></path>
         </svg>
         <span className="home__scroll-name">{t("home.scrolldown")}</span>
-        <i className="uil uil-arrow-down home__scroll-arrow"></i>
       </a>
     </div>
   );

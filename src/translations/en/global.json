@@ -9,8 +9,8 @@
     },
     "home": {
         "title": "Hi, I'ts Rocio Garcia Lofrano",
-        "subtitle": "I'm Frontend Developer.",
-        "p": "Living in Buenos Aires, Argentina. Welcome to my portfolio! ❤",
+        "subtitle": "I'm Frontend Web Developer.",
+        "p": "Welcome to my portfolio! ❤",
         "button_home": "Contact me",
         "scrolldown": "Scroll down"
     },
@@ -21,9 +21,9 @@
         "subtitle_2": "Chicas Programadoras",
         "about_title": "About me",
         "introduction": "My introduction",
-        "p_1": "I am a very creative person, especially in the technology field. I currently work as a frontend developer, creating attractive and intuitive interfaces for users to interact with web applications. Recently, I have started to delve into mobile development, exploring how to bring my design and programming skills to apps.",
-        "p_2": "In addition to programming, I also enjoy creating 3D content. I was recently experimenting with 3D modeling and found it to be a unique and engaging way to bring my ideas to life. The creative process and the visual outcome were both fascinating to me.",
-        "p_3": "In general, I am very passionate about design and have a good eye for it. I understand the principles of visual design and how to create pleasant user experiences. I like working in teams, collaborating with designers and other developers, but I am also very self-motivated and driven to learn on my own.",
+        "p_1": "I am a very creative, adaptable, and efficient person, especially in the technological field. Currently, I work as a frontend developer, creating interesting and intuitive interfaces for users to interact with web applications.",
+        "p_2": "In addition to programming, I also enjoy creating 3D content as I found it to be a very attractive way to express my ideas. The creative process and the result fascinated me.",
+        "p_3": "In general, I am very interested in design and consider myself to have a good eye for it. I understand the principles of visual design and how to create enjoyable experiences for users. I enjoy working in teams, collaborating with designers and other developers, but I am also self-taught and independent.",
         "cv": "Download CV"
     },
     "skills": {
@@ -39,7 +39,7 @@
         "calendar_2": "January 2023 - May 2023",
         "experience_2": "Mentor",
         "calendar_3": "March 2022 - July 2022",
-        "calendar_4": "May 2023 - Now"
+        "calendar_4": "Jan 2024 - Now"
     },
     "projects": {
         "projects_title": "Projects",

@@ -10,18 +10,28 @@
 .button__translate__1 {
   background-color: var(--container-color);
   color: var(--title-color);
-  border: 1px solid var(--text-color);
+  border: 1px solid #DEDEDE;
   padding: 5px 10px;
   border-radius: 8px;
   margin-right: 5px;
 }
 
+.button__translate__1:hover {
+  background-color: #333333;
+  color: var(--container-color);
+}
+
 .button__translate {
   background-color: var(--container-color);
   color: var(--title-color);
-  border: 1px solid var(--text-color);
+  border: 1px solid #DEDEDE;
   padding: 5px 10px;
   border-radius: 8px;
+}
+
+.button__translate:hover {
+  background-color: #333333;
+  color: var(--container-color);
 }
 
 .nav {
@@ -35,7 +45,7 @@
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
 }
 
 .nav__list {

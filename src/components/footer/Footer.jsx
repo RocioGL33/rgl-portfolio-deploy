@@ -10,18 +10,18 @@ const Footer = () => {
       <div className="footer__container">
         <h1 className="footer__title">RGL</h1>
 
-        <ul className="footer__list">
-          <li>
-            <a href="#about" className="footer__link">
-              {t("header.about")}
-            </a>
-          </li>
-          <li>
-            <a href="#projects" className="footer__link">
-              {t("header.projects")}
-            </a>
-          </li>
-        </ul>
+        {/*<ul className="footer__list">
+        <li>
+          <a href="#about" className="footer__link">
+            {t("header.about")}
+          </a>
+        </li>
+        <li>
+          <a href="#projects" className="footer__link">
+            {t("header.projects")}
+          </a>
+        </li>
+  </ul>*/}
 
         <div className="footer__social">
           <a

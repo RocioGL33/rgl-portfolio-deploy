@@ -1,4 +1,3 @@
-import Holocruxe from "../../assets/holocruxe.png";
 import Movies from "../../assets/Movies.jpg";
 import Betriax from "../../assets/Betriax.png";
 import Job from "../../assets/jobsearch.png";
@@ -19,24 +18,13 @@ export const projects = [
     techStack: "Tech Stack: React Native, Expo/ExpoGO, CSS",
   },
   {
-    id: 1,
+    id: 2,
     image: Job,
     title: "JobSearch",
     category: "Mobile",
     url: APK,
     description: "Aplicación Móvil para encontrar empleo",
     techStack: "Tech Stack: React Native, Expo/ExpoGO, CSS",
-  },
-  {
-    id: 3,
-    image: Holocruxe,
-    title: "Holocruxe",
-    category: "web",
-    url: "https://web.holocruxe.com/login/",
-    description:
-      "Página Web con Inteligencia Artificial integrada, dedicada a la preservación de recuerdos y legado de las personas.",
-    techStack:
-      "Tech Stack: Next.js, Typescript, React, MaterialUI, Materialize, Redux Toolkit, ThreeJS, Blender.",
   },
   {
     id: 4,

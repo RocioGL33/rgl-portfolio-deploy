@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 
 const WorkItems = ({ item }) => {
   const [t] = useTranslation("global");
-  console.log(item.category);
 
   return (
     <div className="work__card" key={item.id}>

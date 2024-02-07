@@ -7,34 +7,40 @@ const Design = () => {
 
       <div className="skills__box">
         <div className="skills__data">
-          <i class="bx bxs-component"></i>
+          <i className="bx bxs-component"></i>
           <div>
             <h3 className="skills__name">MaterialUI</h3>
           </div>
         </div>
         <div className="skills__data">
-          <i class="bx bxl-sass"></i>
+          <i className="bx bxl-sass"></i>
           <div>
             <h3 className="skills__name">Sass</h3>
           </div>
         </div>
         <div className="skills__data">
-          <i class="bx bxl-tailwind-css"></i>
+          <i className="bx bxl-tailwind-css"></i>
           <div>
             <h3 className="skills__name">TailwindCSS</h3>
           </div>
         </div>
       </div>
       <div className="skills__data">
-        <i class="bx bxl-bootstrap"></i>
+        <i className="bx bxl-bootstrap"></i>
         <div>
           <h3 className="skills__name">Bootstrap</h3>
         </div>
       </div>
       <div className="skills__data">
-        <i class="bx bxl-figma"></i>
+        <i className="bx bxl-figma"></i>
         <div>
           <h3 className="skills__name">Figma</h3>
+        </div>
+      </div>
+      <div className="skills__data">
+        <i className="bx bxs-book-content"></i>
+        <div>
+          <h3 className="skills__name">Materialize</h3>
         </div>
       </div>
     </div>
