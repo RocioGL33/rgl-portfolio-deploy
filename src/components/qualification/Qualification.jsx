@@ -61,7 +61,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-            <h4>_______________</h4>
+            <h4>____________________</h4>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
@@ -95,7 +95,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-            <h4>_______________</h4>
+            <h4>____________________</h4>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
@@ -106,7 +106,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-            <h4>_______________</h4>
+            <h4>____________________</h4>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
